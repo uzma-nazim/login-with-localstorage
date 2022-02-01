@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Aclonica&family=Amaranth&family=Dancing+Script:wght@700&family=M+PLUS+2:wght@300&family=Merienda&family=Orbitron:wght@400;500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+
+    <div class="main-container">
+
+        <div class="scnd-main">
+
+            <h1>Login form</h1>
+            <form action="javaScript:void(0)">
+
+                <div id="user" class="user-input">
+                    <i class="fas fa-user-alt"></i>
+                    <input type="text" id="input1" name="username" autocomplete="off"
+                        placeholder="Enter Email or Number" id="">
+                    <i id="axclaim" class="fas fa-exclamation-circle"></i>
+                    <i class="fas fa-check-circle"></i>
+                </div>
+                <span id="errorMsg" class="error"></span>
+
+                <div id="user2" class="user-input ">
+                    <i onclick="showPas(this)" class="far fa-eye-slash"></i>
+                    <input type="password" id="password" placeholder="Enter Password" autocomplete="off"
+                        name="passowrd">
+                    <i class="fas fa-exclamation-circle"></i>
+                    <i class="fas fa-check-circle"></i>
+                </div>
+                <span id="errorMsg" class="error"></span>
+                <br>
+                <a href="javaScript:void(0)" class="forget">Forget password? </a><br>
+                <button onclick="formValidation()" class="login1">Login</button>
+
+                <p class="p1">Don't have account <a href="login.html" >Sign up</a> </p>
+
+            </form>
+        </div>
+    </div>
+
+
+
+</body>
+<script src="app.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+    integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+    crossorigin="anonymous"></script>
+
+</html>

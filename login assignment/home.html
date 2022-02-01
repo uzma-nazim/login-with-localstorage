@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Info</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body onload="showData()">
+    <div class="main-containr">
+        <div class="small-container">
+
+            <h1>User Info</h1>
+            <div class="profile">
+                <img src="./images/profile.png" width="20%" alt="">
+            </div>
+            <table id="tr">
+                <tr  >
+                    <td>Name</td>
+                    <td id="name" >Uzma</td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td id="email">uzmanazim06@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td id="userpassword">.....</td>
+                </tr>
+     
+            </table>
+            <button class="signUp" onclick="logOut()" >Logout</button>
+        </div>
+    </div>
+
+</body>
+<script src="app.js"></script>
+</html>
